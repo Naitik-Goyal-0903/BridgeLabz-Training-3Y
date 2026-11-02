@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3 - Complete HTML Code</title>
+</head>
+<body>
+
+    <!-- ========================================================== -->
+    <!-- Q1. Multi-Section Resume Page                              -->
+    <!-- ========================================================== -->
+    <section>
+        <header>
+            <h1>Rahul Sharma</h1>
+            <p>Email: rahul.sharma@email.com | Phone: +91 9876543210</p>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section id="about">
+                <h2>About Me</h2>
+                <p>Motivated web development student passionate about building clean and semantic web interfaces.</p>
+            </section>
+
+            <section id="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML5 & Semantic Markup</li>
+                    <li>Basic CSS & Layouts</li>
+                    <li>JavaScript Fundamentals</li>
+                </ul>
+            </section>
+
+            <section id="projects">
+                <h2>Projects</h2>
+                <ol>
+                    <li>Personal Portfolio Website</li>
+                    <li>Product Landing Page</li>
+                    <li>Interactive Quiz App</li>
+                </ol>
+            </section>
+
+            <section id="education">
+                <h2>Education</h2>
+                <table border="1" cellpadding="5" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>Course</th>
+                            <th>Institute</th>
+                            <th>Year</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>B.Tech Computer Science</td>
+                            <td>University Institute</td>
+                            <td>2026</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Rahul Sharma. All rights reserved.</p>
+        </footer>
+    </section>
+
+    <hr>
+
+    <!-- ========================================================== -->
+    <!-- Q2. Product Catalog Page                                   -->
+    <!-- ========================================================== -->
+    <section>
+        <h2>Product Catalog</h2>
+        <table border="1" cellpadding="8" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Product Image</th>
+                    <th>Product Name</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                    <th>Availability</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="https://picsum.photos/id/1/100/80" alt="Laptop"></td>
+                    <td>Wireless Mouse</td>
+                    <td>Ergonomic wireless mouse with USB receiver.</td>
+                    <td>₹1,200</td>
+                    <td>In Stock</td>
+                </tr>
+                <tr>
+                    <td><img src="https://picsum.photos/id/0/100/80" alt="Keyboard"></td>
+                    <td>Mechanical Keyboard</td>
+                    <td>RGB backlit mechanical gaming keyboard.</td>
+                    <td>₹3,500</td>
+                    <td>In Stock</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <hr>
+
+    <!-- ========================================================== -->
+    <!-- Q3. Course Registration Form Structure                     -->
+    <!-- ========================================================== -->
+    <section>
+        <h2>Course Registration Form</h2>
+        <form>
+            <fieldset>
+                <legend>Student Details</legend>
+                <p>
+                    <label>Name: <input type="text" name="name" required></label>
+                </p>
+                <p>
+                    <label>Email: <input type="email" name="email" required></label>
+                </p>
+                <p>
+                    <label>Select Course: 
+                        <select name="course">
+                            <option value="html">HTML Basics</option>
+                            <option value="fullstack">Full Stack Node.js</option>
+                            <option value="java">Java Programming</option>
+                        </select>
+                    </label>
+                </p>
+            </fieldset>
+        </form>
+
+        <h3>Available Course Schedules</h3>
+        <table border="1" cellpadding="5" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Day</th>
+                    <th>Time</th>
+                    <th>Instructor</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Monday</td>
+                    <td>10:00 AM - 12:00 PM</td>
+                    <td>Dr. A. Kumar</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>02:00 PM - 04:00 PM</td>
+                    <td>Prof. S. Verma</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <hr>
+
+    <!-- ========================================================== -->
+    <!-- Q4. Company Layout Page using Block Elements               -->
+    <!-- ========================================================== -->
+    <div>
+        <header>
+            <h1>TechCorp Solutions</h1>
+        </header>
+
+        <nav>
+            <p><a href="#">Home</a> | <a href="#">Services</a> | <a href="#">Contact</a></p>
+        </nav>
+
+        <main>
+            <section>
+                <h2>About the Company</h2>
+                <p>TechCorp Solutions provides innovative software development and training services.</p>
+            </section>
+            
+            <section>
+                <h2>Services Offered</h2>
+                <ul>
+                    <li>Web Development</li>
+                    <li>Cloud Computing Solutions</li>
+                    <li>IT Consulting</li>
+                </ul>
+            </section>
+
+            <aside>
+                <blockquote>"Innovation distinguishes between a leader and a follower." - CEO</blockquote>
+            </aside>
+        </main>
+
+        <footer>
+            <p>Email: contact@techcorp.com | Address: Cyber City, Gurgaon, India</p>
+        </footer>
+    </div>
+
+    <hr>
+
+    <!-- ========================================================== -->
+    <!-- Q5. Nested List Structure                                  -->
+    <!-- ========================================================== -->
+    <section>
+        <h2>University Hierarchy</h2>
+        <ul>
+            <li>University of Technology
+                <ol>
+                    <li>Department of Computer Science
+                        <ul>
+                            <li>Courses
+                                <ol>
+                                    <li>Data Structures
+                                        <ul>
+                                            <li>Arrays and Linked Lists</li>
+                                            <li>Trees and Graphs</li>
+                                        </ul>
+                                    </li>
+                                    <li>Web Development
+                                        <ul>
+                                            <li>HTML & CSS</li>
+                                            <li>JavaScript Basics</li>
+                                        </ul>
+                                    </li>
+                                </ol>
+                            </li>
+                        </ul>
+                    </li>
+                </ol>
+            </li>
+        </ul>
+    </section>
+
+    <hr>
+
+    <!-- ========================================================== -->
+    <!-- Q6. Restaurant Menu Page                                   -->
+    <!-- ========================================================== -->
+    <section>
+        <header>
+            <h1>Spicy Treat Restaurant</h1>
+        </header>
+
+        <nav>
+            <p><a href="#starters">Starters</a> | <a href="#maincourse">Main Course</a> | <a href="#desserts">Desserts</a></p>
+        </nav>
+
+        <section id="starters">
+            <h2>Starters</h2>
+            <table border="1" cellpadding="5" cellspacing="0">
+                <tr><th>Dish Name</th><th>Description</th><th>Price</th></tr>
+                <tr><td>Paneer Tikka</td><td>Spicy grilled cottage cheese cubes.</td><td>₹250</td></tr>
+            </table>
+        </section>
+
+        <section id="maincourse">
+            <h2>Main Course</h2>
+            <table border="1" cellpadding="5" cellspacing="0">
+                <tr><th>Dish Name</th><th>Description</th><th>Price</th></tr>
+                <tr><td>Dal Makhani</td><td>Rich and creamy black lentils.</td><td>₹300</td></tr>
+            </table>
+        </section>
+
+        <section id="desserts">
+            <h2>Desserts</h2>
+            <table border="1" cellpadding="5" cellspacing="0">
+                <tr><th>Dish Name</th><th>Description</th><th>Price</th></tr>
+                <tr><td>Gulab Jamun</td><td>Sweet milk-solid balls in syrup.</td><td>₹120</td></tr>
+            </table>
+        </section>
+
+        <footer>
+            <p>Contact: +91 9123456789 | Order Online</p>
+        </footer>
+    </section>
+
+    <hr>
+
+    <!-- ========================================================== -->
+    <!-- Q7. Conference Schedule Page                               -->
+    <!-- ========================================================== -->
+    <section>
+        <h2>Conference Schedule</h2>
+        <table border="1" cellpadding="6" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Session</th>
+                    <th>Time</th>
+                    <th>Topic</th>
+                    <th>Speaker</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Morning</td>
+                    <td>09:30 AM</td>
+                    <td>Intro to HTML5 Semantics</td>
+                    <td>Neha Gupta</td>
+                </tr>
+                <tr>
+                    <td>Afternoon</td>
+                    <td>02:00 PM</td>
+                    <td>Advanced Web Architecture</td>
+                    <td>Rohan Mehta</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4">End of Day One Schedule</td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+
+    <hr>
+
+    <!-- ========================================================== -->
+    <!-- Q8. Student Report Page                                    -->
+    <!-- ========================================================== -->
+    <section>
+        <h1>Global Public School</h1>
+        <h2>Student Report Card</h2>
+        <table border="1" cellpadding="5" cellspacing="0">
+            <tr>
+                <th rowspan="2">Subject</th>
+                <th colspan="2">Marks Obtained</th>
+            </tr>
+            <tr>
+                <th>Theory</th>
+                <th>Practical</th>
+            </tr>
+            <tr>
+                <td title="Mathematics Subject">Mathematics</td>
+                <td>85</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td title="Science Subject">Science</td>
+                <td>80</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td title="English Subject">English</td>
+                <td>78</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td title="Computer Science">Computer</td>
+                <td>90</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td title="Social Science">Social Science</td>
+                <td>82</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td><strong>Total & Percentage</strong></td>
+                <td colspan="2">Total Marks: 455 / 500 (91%)</td>
+            </tr>
+        </table>
+    </section>
+
+    <hr>
+
+    <!-- ========================================================== -->
+    <!-- Q9. Travel Destination Page                                -->
+    <!-- ========================================================== -->
+    <section>
+        <header>
+            <h1>Top 3 Travel Destinations</h1>
+        </header>
+
+        <main>
+            <article>
+                <h2>1. Goa, India</h2>
+                <img src="https://picsum.photos/id/1040/250/150" alt="Goa Beach">
+                <p>Famous for its pristine beaches, vibrant nightlife, and Portuguese heritage architecture.</p>
+                <blockquote>"An amazing coastal getaway with great food and sunset views." - Traveler</blockquote>
+            </article>
+
+            <article>
+                <h2>2. Manali, Himachal Pradesh</h2>
+                <img src="https://picsum.photos/id/1041/250/150" alt="Manali Mountains">
+                <p>A high-altitude Himalayan resort town known for its cool climate and snow-capped mountains.</p>
+                <blockquote>"Breathtaking mountain landscapes and fantastic adventure sports." - Explorer</blockquote>
+            </article>
+
+            <article>
+                <h2>3. Jaipur, Rajasthan</h2>
+                <img src="https://picsum.photos/id/1042/250/150" alt="Jaipur Fort">
+                <p>The Pink City featuring magnificent forts, royal palaces, and rich cultural heritage.</p>
+                <blockquote>"A magical royal experience filled with history and architecture." - Tourist</blockquote>
+            </article>
+        </main>
+
+        <aside>
+            <h3>Travel Tips</h3>
+            <ul>
+                <li>Always carry identity proof and documents.</li>
+                <li>Check weather conditions before packing.</li>
+                <li>Keep emergency contact numbers handy.</li>
+            </ul>
+        </aside>
+
+        <footer>
+            <p>&copy; 2026 Travel Guide Portal. All rights reserved.</p>
+        </footer>
+    </section>
+
+    <hr>
+
+    <!-- ========================================================== -->
+    <!-- Q10. Dropdown-based Selection Page                         -->
+    <!-- ========================================================== -->
+    <section>
+        <h2>Select Location</h2>
+        <form>
+            <p>
+                <label>Country: 
+                    <select name="country">
+                        <option value="india">India</option>
+                        <option value="usa">USA</option>
+                        <option value="uk">UK</option>
+                    </select>
+                </label>
+            </p>
+            <p>
+                <label>State: 
+                    <select name="state">
+                        <option value="up">Uttar Pradesh</option>
+                        <option value="delhi">Delhi</option>
+                        <option value="maharashtra">Maharashtra</option>
+                    </select>
+                </label>
+            </p>
+            <p>
+                <label>City: 
+                    <select name="city">
+                        <option value="agra">Agra</option>
+                        <option value="lucknow">Lucknow</option>
+                        <option value="noida">Noida</option>
+                    </select>
+                </label>
+            </p>
+        </form>
+    </section>
+
+</body>
+</html>
